@@ -13,5 +13,6 @@ $('#cursor').animate({
 }
 
 $('.enter-link').click(function () {
+	$(".terminal-container-fluid").css({ 'display' : 'block'});
     $(this).parent().parent().parent().parent().parent().fadeOut(800);
 });

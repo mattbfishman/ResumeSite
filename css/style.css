@@ -38,6 +38,10 @@
 	background: #93e6ba;
 }
 
+.terminal-container-fluid{
+	display: none;
+}
+
 .welcome-container-fluid{
 	position:absolute;
     background: white;
