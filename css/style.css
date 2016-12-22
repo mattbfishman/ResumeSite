@@ -39,7 +39,7 @@
 	position:absolute;
     background: white;
     z-index: 1;
-    background: #ff9f9f;
+    background: #d8e9f0;
     text-align: center;
 }
 
@@ -59,4 +59,13 @@
 .enter-link{
 	text-decoration: none;
 	cursor: default;
+}
+
+.portrait-circle{
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
