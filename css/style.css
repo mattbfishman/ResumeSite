@@ -1,6 +1,5 @@
 .terminal-box{
 	background: black;
-	/*color: #03ff03;*/
 	color: white;
     border-top: thick solid #a5a0a0;
     border-top-width: 15px;
@@ -23,4 +22,41 @@
 	text-indent: 45px;
 	color: gray;
 	margin-top: -10px;
+}
+
+.terminal-container-fluid,
+.welcome-container-fluid
+{
+	width: 100%;
+	height: 100%;
+}
+
+.terminal-container-fluid{
+	background: #93e6ba;
+}
+
+.welcome-container-fluid{
+	position:absolute;
+    background: white;
+    z-index: 1;
+    background: #ff9f9f;
+    text-align: center;
+}
+
+.welcome-col{
+	height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter-link{
+	text-decoration: none;
+	cursor: default;
 }
