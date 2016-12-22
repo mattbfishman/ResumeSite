@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    setInterval ('cursorAnimation()', 700);
+    setInterval ('cursorAnimation()', 1000);
 
 });
     
