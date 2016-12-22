@@ -11,6 +11,27 @@
 
 </head>
 <body>
+	<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+	    <div class="container-fluid">
+	        <div class="navbar-header"><a class="navbar-brand" href="#">Resume Site</a>
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+	            </button>
+	        </div>
+	        <div class="collapse navbar-collapse navbar-menubuilder">
+	            <ul class="nav navbar-nav navbar-left">
+	                <li class="active"><a href="#terminal">About</a>
+	                </li>
+	                <li><a href="#skills">Skills</a>
+	                </li>
+	                <li><a href="#">Projects</a>
+	                </li>
+	                <li><a href="#">Social</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+
 	<div class="welcome-container-fluid container-fluid" id="welcome">
 		<div class="row">
 			<div class="welcome-col col-md-12">
@@ -30,6 +51,7 @@
 	<div class="terminal-container-fluid container-fluid" id="terminal">
 		<div class="terminal-row row">
 			<div class="terminal-col col-md-12">
+				<h1> About </h1>
 				<div class="terminal-box col-md-6 col-md-offset-3">
 					<div class="terminal-info">
 						> Matt.origin
@@ -45,9 +67,9 @@
 						> Matt.expectedGraduation
 						<p class="enter-line">=> "May 2017"</p>
 						<br>
-						> Matt.interests
+						<!-- > Matt.interests
 						<p class="enter-line">=> ["Code", "Design", "Music", "Lifting Weights", "Running", "Video Games", "Cooking"]</p>
-						<br>
+						<br> -->
 						> Matt.workExperience.latest
 						<p class="enter-line">=> Latest Work Experience
 							<p class="work-experience">
@@ -65,7 +87,7 @@
 						</p>
 						<br>
 						> Matt.resume
-						<p class="enter-line">=> "<a href="Fishman_Matthew_Resume.pdf">Matthew_Fishman_Resume.pdf</a>"</p>
+						<p class="enter-line">=> "<a href="Fishman_Matthew_Resume.pdf" target="_blank">Matthew_Fishman_Resume.pdf</a>"</p>
 						<br>
 						> Matt.email
 						<p class="enter-line">=> "<a href="mailto:MatthewBrandonFishman@gmail.com" target="">MatthewBrandonFishman@gmail.com</a>"</p>
@@ -75,7 +97,21 @@
 		</div>
 	</div>
 
+	<div class="skills-container-fluid container-fluid" id="skills">
+		<div class="skills-row row">
+			<div class="skills-col col-md-12">
+				<h1> Skills </h1>
+				<div class="skills-box col-md-12">
+					<div class="skills-chart" id="container" style="min-width: 310px; max-width: 1000px; height: 400px; margin: 0 auto"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
 <script src="js/script.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="js/highcharts.js"></script>
 
