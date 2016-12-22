@@ -1,3 +1,4 @@
+
 .terminal-box{
 	background: black;
 	color: white;
@@ -7,9 +8,10 @@
 
 .terminal-info{
 	margin-top: 20px;
+	font-size: 13px;
 }
 
-.terminal-col{
+.terminal-box{
 	margin-top: 20px;
 }
 
@@ -31,7 +33,8 @@
 	height: 100%;
 }
 
-.terminal-container-fluid{
+.terminal-container-fluid,
+.terminal-row{
 	background: #93e6ba;
 }
 
@@ -41,6 +44,7 @@
     z-index: 1;
     background: #d8e9f0;
     text-align: center;
+    overflow: hidden;
 }
 
 .welcome-col{
