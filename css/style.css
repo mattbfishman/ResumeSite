@@ -1,6 +1,11 @@
+body{
+}
+
 #custom-bootstrap-menu,
 .terminal-container-fluid,
-.social-container-fluid{
+.social-container-fluid,
+.projects-container-fluid,
+.footer{
 	display: none;
 }
 
@@ -85,11 +90,15 @@
 {
 	width: 100%;
 	height: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
 }
 
 .social-container-fluid{
     height: 95%;
     width: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
 }
 
 .terminal-container-fluid,
@@ -157,10 +166,6 @@ h1{
 	background: #d25555;
 }
 
-.projects-container-fluid{
-    display: none;
-}
-
 .projects-container-fluid,
 .projects-row{
     background: #9eb9ff;
@@ -176,7 +181,40 @@ h1{
   background-color: rgba(231, 231, 231, 1);
 }
 
-.footer{
-    display: none;
+.project-desc,
+.pic-col {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3{
+    color: white !important;
+}
+
+p,
+span,
+.section-header{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.pic{ 
+    transition: all .5s ease-in-out;
+}
+.pic:hover{
+    transform: scale(1.5);
+}
+
+.icon:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.icon,
+.icon:visited,
+.icon:active,
+.icon:focus
+{
+    color: #333333;
+    text-decoration: none;
 }
 

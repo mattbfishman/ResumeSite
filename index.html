@@ -7,11 +7,12 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 
 </head>
 <body>
-	<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
 	    <div class="container-fluid">
 	        <div class="navbar-header"><a class="navbar-brand" href="#">Resume Site</a>
 	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -19,18 +20,18 @@
 	        </div>
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left">
-	                <li class="active"><a href="#terminal">About</a>
+	                <li><a href="#terminal">About</a>
 	                </li>
 	                <li><a href="#skills">Skills</a>
 	                </li>
 	                <li><a href="#projects">Projects</a>
 	                </li>
-	                <li><a href="#social">Social</a>
+	                <li><a href="#social">Contact</a>
 	                </li>
 	            </ul>
 	        </div>
 	    </div>
-	</div>
+	</nav>
 
 	<div class="welcome-container-fluid container-fluid" id="welcome">
 		<div class="row">
@@ -67,9 +68,9 @@
 						> Matt.expectedGraduation
 						<p class="enter-line">=> "May 2017"</p>
 						<br>
-						<!-- > Matt.interests
+						> Matt.interests
 						<p class="enter-line">=> ["Code", "Design", "Music", "Lifting Weights", "Running", "Video Games", "Cooking"]</p>
-						<br> -->
+						<br>
 						> Matt.workExperience.latest
 						<p class="enter-line">=> Latest Work Experience
 							<p class="work-experience">
@@ -88,9 +89,6 @@
 						<br>
 						> Matt.resume
 						<p class="enter-line">=> "<a href="Fishman_Matthew_Resume.pdf" target="_blank">Matthew_Fishman_Resume.pdf</a>"</p>
-						<br>
-						> Matt.email
-						<p class="enter-line">=> "<a href="mailto:MatthewBrandonFishman@gmail.com" target="">MatthewBrandonFishman@gmail.com</a>"</p>
 					</div> 
 				</div>
 			</div>
@@ -112,8 +110,30 @@
 		<div class="projects-row row">
 			<div class="projects-col col-md-12">
 				<h1 class="section-header"> Projects </h1>
+				<div class="picture-box col-md-12">
+					<div class="row">
+						<div class="pic-col col-sm-6">
+							<img class="pic" src="images/seniorProject.png" style="width:400px;height:250px; text-align:left">
+							<br>
+							<span>Instructors station for the Perfusion Simulator</span>
+						</div>
+						<div class="pic-col col-sm-6">
+							<img class="pic" src="images/quat.png" style="width:400px;height:250px; text-align:left">
+							<br>
+							<span>Quat's main chatroom</span>
+						</div>
+					</div>
+				</div>
 				<div class="projects-box col-md-12">
-					
+					<div class="project-desc col-sm-6">
+						<h3>Perfusion Simulation</h3>
+						<p>Senior project written in HTML, CSS, and JavaScript using MongoDB on the backend and Meteor as a framework. Built for a Quinnipiac School of Nursing Professor so the instructor can simulate profusion with students in a classroom environment. 
+ 						</p>
+					</div>
+					<div class="project-desc col-sm-6">
+						<h3>Quat</h3>
+						<p>Written in HTML, CSS and JavaScript using MongoDB on the backend and Meteor as a framework. Build as a side project to make a chat room application using Meteor. Application allows users to create a profile, create chatrooms, and manage created chatrooms.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -122,9 +142,21 @@
 	<div class="social-container-fluid container-fluid" id="social">
 		<div class="social-row row">
 			<div class="social-col col-md-12">
-				<h1 class="section-header"> Social </h1>
+				<h1 class="section-header"> Contact</h1>
 				<div class="social-box col-md-12">
-					
+					<i class="icon fa fa-github-square fa-5x" aria-hidden="true"></i>
+					<i class="icon fa fa-facebook-official fa-5x" aria-hidden="true"></i>
+					<a class="icon" href="mailto:MatthewBrandonFishman@gmail.com" target="">
+						<i class=" fa fa-envelope fa-5x" aria-hidden="true"></i>
+					</a>
+					<i class="icon fa fa-instagram fa-5x" aria-hidden="true"></i>
+					<i class="icon fa fa-twitter-square fa-5x" aria-hidden="true"></i>
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
@@ -135,7 +167,6 @@
         	<div class="row">
         		<div class="col-md-12">
         		</div>
-        	</div>
       	</div>
     </div>
 
