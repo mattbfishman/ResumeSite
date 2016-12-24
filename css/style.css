@@ -1,6 +1,3 @@
-body{
-}
-
 #custom-bootstrap-menu,
 .terminal-container-fluid,
 .social-container-fluid,
@@ -217,4 +214,88 @@ span,
     color: #333333;
     text-decoration: none;
 }
+
+.skills-chart{
+    min-width: 310px; 
+    max-width: 1000px; 
+    height: 400px; 
+    margin: 0 auto;
+}
+.github-box{
+    margin-top: 20px;
+}
+
+.github-box,
+.facebook-box,
+.mail-box,
+.twitter-box,
+.instagram-box{
+    background: #e8eada;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.social-link{
+    text-indent: 50px;
+}
+
+.contact-desc{
+    text-indent: -50px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.skills-photo{
+    height: 300px;
+    width: 450px;
+}
+
+.achievements-pic{
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (min-height: 736px){
+    .terminal-info{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .terminal-box{
+        margin-top: 50px;
+    }
+
+    .section-header,
+    .about-header{
+        font-size: 96px !important;
+    }
+
+    .about-header{
+        margin-top: 50px;
+    }
+
+    .portrait-circle{
+        border-radius: 50%;
+        height: 400px;
+        width: 400px;
+    }
+    .welcome-header{
+        font-size: 64px !important;
+    }
+
+    .enter-link{
+        font-size: 48px !important;
+    }
+    
+    .skills-chart{
+        height: 1200px; 
+        margin: 0 auto;
+    }
+}
+
 
