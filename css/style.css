@@ -2,6 +2,7 @@
 .terminal-container-fluid,
 .social-container-fluid,
 .projects-container-fluid,
+.skills-container-fluid,
 .footer{
     display: none;
 }
@@ -209,6 +210,12 @@ span,
     transform: scale(1.5);
 }
 
+.pic{
+    width:400px;
+    height:250px; 
+    text-align:left;
+}
+
 .icon:hover{
     color: gray;
     text-decoration: none;
@@ -277,6 +284,42 @@ ul{
     margin-top: 20px;
 }
 
-@media only screen and (min-height: 736px){
-    
+@media only screen and (max-height: 736px){
+    .terminal-container-fluid
+    {
+        overflow: auto;
+        display:block;
+        position: relative;
+    }
+
+    .terminal-box,
+    .skills-chart,
+    .social-col,
+    .mail-box{
+        margin-bottom: 10px;
+    }
+
+    .skills-container-fluid,
+    .projects-container-fluid,
+    .social-container-fluid{
+        overflow: auto;
+        position: relative;
+    }
+
+     
+    .pic:hover,
+    .skills-photo:hover{
+        transform: scale(1.0);
+    }
+
+    .pic-col,
+    .achievements-pic{
+        display: none;
+    }
+
+    .achievements-ul.li{
+        padding: 0;
+        text-align: center;
+    }
+
 }
