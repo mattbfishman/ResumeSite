@@ -3,7 +3,12 @@
 .social-container-fluid,
 .projects-container-fluid,
 .footer{
-	display: none;
+    display: none;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -54,30 +59,30 @@
 }
 
 .terminal-box{
-	background: black;
-	color: white;
+    background: black;
+    color: white;
     border-top: thick solid #a5a0a0;
     border-top-width: 15px;
 }
 
 .terminal-info{
-	margin-top: 20px;
-	font-size: 13px;
+    margin-top: 20px;
+    font-size: 13px;
 }
 
 .terminal-box{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .enter-line{
-	text-indent: 15px;
-	color: gray;
+    text-indent: 15px;
+    color: gray;
 }
 
 .work-experience{
-	text-indent: 45px;
-	color: gray;
-	margin-top: -10px;
+    text-indent: 45px;
+    color: gray;
+    margin-top: -10px;
 }
 
 .terminal-container-fluid,
@@ -85,8 +90,8 @@
 .skills-container-fluid,
 .projects-container-fluid
 {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 }
@@ -100,11 +105,11 @@
 
 .terminal-container-fluid,
 .terminal-row{
-	background: #93e6ba;
+    background: #93e6ba;
 }
 
 .welcome-container-fluid{
-	position:absolute;
+    position:absolute;
     background: white;
     z-index: 1;
     background: #d8e9f0;
@@ -113,7 +118,7 @@
 }
 
 .welcome-col{
-	height: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
     display: -webkit-box;
@@ -126,8 +131,8 @@
 }
 
 .enter-link{
-	text-decoration: none;
-	cursor: default;
+    text-decoration: none;
+    cursor: default;
 }
 
 .portrait-circle{
@@ -137,12 +142,12 @@
 }
 
 .terminal-col{
-	margin-top: 50px
+    margin-top: 50px
 }
 
 h1{
-	text-align: center;
-	
+    text-align: center;
+    
 }
 
 .section-header,
@@ -155,12 +160,12 @@ h1{
 }
 
 .skills-chart{
-	margin-top: 50px !important;
+    margin-top: 50px !important;
 }
 
 .skills-container-fluid,
 .skills-row{
-	background: #d25555;
+    background: #d25555;
 }
 
 .projects-container-fluid,
@@ -170,7 +175,7 @@ h1{
 
 .social-container-fluid,
 .social-row{
-    background: #dede8d;
+    background: #e8d282;
 }
 
 #footer {
@@ -194,10 +199,13 @@ span,
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.pic{ 
+.pic,
+.skills-photo{ 
     transition: all .5s ease-in-out;
 }
-.pic:hover{
+ 
+.pic:hover,
+.skills-photo:hover{
     transform: scale(1.5);
 }
 
@@ -251,8 +259,8 @@ span,
 }
 
 .skills-photo{
-    height: 300px;
-    width: 450px;
+    height: 250px;
+    width: 400px;
 }
 
 .achievements-pic{
@@ -260,42 +268,15 @@ span,
     margin-top: 20px;
 }
 
-@media only screen and (min-height: 736px){
-    .terminal-info{
-        margin-top: 50px;
-        font-size: 30px;
-    }
 
-    .terminal-box{
-        margin-top: 50px;
-    }
-
-    .section-header,
-    .about-header{
-        font-size: 96px !important;
-    }
-
-    .about-header{
-        margin-top: 50px;
-    }
-
-    .portrait-circle{
-        border-radius: 50%;
-        height: 400px;
-        width: 400px;
-    }
-    .welcome-header{
-        font-size: 64px !important;
-    }
-
-    .enter-link{
-        font-size: 48px !important;
-    }
-    
-    .skills-chart{
-        height: 1200px; 
-        margin: 0 auto;
-    }
+ul{
+    list-style: none;
 }
 
+.achievements-ul.li{
+    margin-top: 20px;
+}
 
+@media only screen and (min-height: 736px){
+    
+}
