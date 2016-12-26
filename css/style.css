@@ -1,3 +1,75 @@
+@media only screen and (max-height: 736px) and (min-height: 480px) {
+    .terminal-container-fluid{
+        overflow: auto;
+        display:block;
+    }
+
+    .terminal-box,
+    .skills-chart,
+    .social-col,
+    .mail-box{
+        margin-bottom: 10px;
+    }
+
+    .skills-container-fluid,
+    .projects-container-fluid,
+    .social-container-fluid{
+        overflow: auto;
+    }
+
+
+    .skills-chart,
+    .skills-box.col-xs-12.col-sm-12.col-md-12.col-lg-12.skills-chart{
+        width: 100%;
+    }
+
+    .pic:hover,
+    .skills-photo:hover{
+        transform: scale(1.0);
+    }
+
+    .pic,
+    .skills-photo{
+        width: 100%;
+
+    }
+
+    .achievements-li{
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.terminal-container-fluid{
+    overflow: none;
+    display:block;
+}
+
+.terminal-box,
+.skills-chart,
+.social-col,
+.mail-box{
+    margin-bottom: 0px;
+}
+
+.skills-container-fluid,
+.projects-container-fluid,
+.social-container-fluid{
+    overflow: none;
+}
+
+
+.pic-col,
+.achievements-pic{
+    display: block;
+}
+
+.achievements-ul.li{
+    padding: auto;
+    text-align: left;
+}
+
+
 #custom-bootstrap-menu,
 .terminal-container-fluid,
 .social-container-fluid,
@@ -10,6 +82,10 @@
 nav{
     position: fixed;
     top: 0px;
+}
+
+body{
+    height: 100%;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -210,9 +286,10 @@ span,
     transform: scale(1.5);
 }
 
-.pic{
-    width:400px;
-    height:250px; 
+.pic,
+.skills-photo{
+    width: 80%;
+    height: 40%; 
     text-align:left;
 }
 
@@ -230,12 +307,14 @@ span,
     text-decoration: none;
 }
 
-.skills-chart{
-    min-width: 310px; 
-    max-width: 1000px; 
-    height: 400px; 
-    margin: 0 auto;
+
+.skills-chart,
+.skills-box.col-xs-12.col-sm-12.col-md-12.col-lg-12.skills-chart{
+    width: 98%;
+
+
 }
+
 .github-box{
     margin-top: 20px;
 }
@@ -265,11 +344,6 @@ span,
     text-align: center;
 }
 
-.skills-photo{
-    height: 250px;
-    width: 400px;
-}
-
 .achievements-pic{
     text-align: center;
     margin-top: 20px;
@@ -280,46 +354,8 @@ ul{
     list-style: none;
 }
 
-.achievements-ul.li{
+.achievements-li{
     margin-top: 20px;
+    text-align: left;
 }
 
-@media only screen and (max-height: 736px){
-    .terminal-container-fluid
-    {
-        overflow: auto;
-        display:block;
-        position: relative;
-    }
-
-    .terminal-box,
-    .skills-chart,
-    .social-col,
-    .mail-box{
-        margin-bottom: 10px;
-    }
-
-    .skills-container-fluid,
-    .projects-container-fluid,
-    .social-container-fluid{
-        overflow: auto;
-        position: relative;
-    }
-
-     
-    .pic:hover,
-    .skills-photo:hover{
-        transform: scale(1.0);
-    }
-
-    .pic-col,
-    .achievements-pic{
-        display: none;
-    }
-
-    .achievements-ul.li{
-        padding: 0;
-        text-align: center;
-    }
-
-}

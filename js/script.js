@@ -2,6 +2,11 @@ $(document).ready(function() {
     
     setInterval ('cursorAnimation()', 1000);
     
+    $(".nav li").on("click", function() {
+	    $(".nav li").removeClass("active");
+	    $(this).addClass("active");
+  	});
+  
 });
     
 function cursorAnimation() {
