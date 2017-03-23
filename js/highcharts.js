@@ -12,6 +12,7 @@ $(function () {
                 text: null
             }
         },
+        
         yAxis: {
             min: 0,
             title: {
