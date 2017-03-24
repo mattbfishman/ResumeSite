@@ -466,11 +466,20 @@ h1{
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #07889b;
 }
-footer{
+
+.footer{
     background-color: #66b9bf;
     text-align: center;
     color: #f8f8f8;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
+body{
+    height: 100%;
+    min-height: 100%;
 }
 
 .skills-container-fluid,
@@ -526,6 +535,13 @@ footer{
     overflow: auto;
 }
 
+.icon{
+    color:#07889B; 
+}
+
+.icon:hover{
+    color: #66b9bf;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .pic{
         width: 100%;
