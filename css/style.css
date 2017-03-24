@@ -468,13 +468,13 @@ h1{
 }
 
 .footer{
-    background-color: #66b9bf;
-    text-align: center;
-    color: #f8f8f8;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    background-color: #66b9bf !important;
+    text-align: center !important;
+    color: #f8f8f8 !important;
+    position: absolute !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
 }
 
 body{
